@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: mons;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+    font-family: mons;
+    src: url(/Montserrat-VariableFont_wght.ttf);
+}
+
+.notification {
+  width: 100%;
+  height: 100%;
+  /* background-color: aqua; */
+  padding-top: 1vw;
+}
+
+.notification-head {
+  width: 80%;
+  margin-left: 10vw;
+  background-color: #007bff;
+  height: 8%;
+  display: flex ;
+  align-items: center;
+  padding-left: 10vw;
+  border-radius: 12px;
+}
+
+.notification-head i{
+    font-size: 5vh;
+    color: #fff;
+    margin-left: 15vw;
+}
+
+.notification-head h2{
+    font-weight: 600;
+    margin-left: 10vw;
+    font-size: 4vh;
+    color: #fff;
+}
+
+.notification-mid{
+    width: 100%;
+    height: 92%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-inner{
+    width: 80%;
+    height: 90%;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #c3c3c3;
+
+}
+
+.inner-div{
+    width: 90%;
+    height: 3vw;
+    background-color: #c3c3c3;
+    margin-left: 4vw;
+    margin-top: 2vw;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div-left{
+    width: 10%;
+    height: 100%;
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-left img{
+    height: 80%;
+}
+
+.left-in{
+    width: 10%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-in p{
+    color: gray;
+    font-size: 2vh;
+}
+
+.right-in{
+    width: 40%;
+    height: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-in p{
+    font-size: 2vh;
+}
+
+.div-right{
+    width: 15%;
+    height: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-right p{
+    color: gray;
+    font-size: 2vh;
+}

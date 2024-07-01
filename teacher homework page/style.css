@@ -1,0 +1,136 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: mons;
+}
+@font-face {
+    font-family: mons;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+.student-home-page-cover{
+    height: 47vw;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+}
+.student-home-page-cover-left{
+    width: 20%;
+    height: 100%;
+    background-color:#6b74f7;
+}
+.student-home-page-cover-left-upper{
+    height: 40%;
+    width: 100%;
+    background-color: ;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: white solid 2px;
+}
+.student-home-page-cover-left-upper img{
+    border-radius: 50%;
+    margin-top: 2vw;
+}
+.info{
+    margin-top: 1vw;
+}
+.student-home-page-cover-left-upper p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    margin-top: 0.3;
+    color: white;
+}
+.student-home-page-cover-left-lower{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.student-home-page-cover-left-lower p{
+    /* background-color: red; */
+    height: 3vw;
+    width: 100%;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    padding-left: 3vw;
+    font-weight: 500;
+    transition: 400ms;
+}
+.student-home-page-cover-left-lower i{
+    margin-right: 3vw;
+    font-size: 1.5vw;
+}
+.student-home-page-cover-left-lower p:hover{
+background-color: white;
+color: #6b74f7;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.infor{
+    width: 100%;
+    margin-top: 1.5vw;
+    /* padding-left: 10vw;   */
+}
+
+.student-home-page-cover-right{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+}
+.student-home-page-cover-right-content-main{
+    /* background-color: pink; */
+    margin-top: 10vw;
+    width: 70%;
+    margin-left: 13vw;
+}
+.student-home-page-cover-right-content{
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    margin-top: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.topic{
+    width: 15%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: grey solid 1px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 400ms;
+}
+.topic:hover{
+    background-color:#b4b7e4;
+}
+.topic img{
+    margin-bottom: 1vw;
+}
+.topic p{
+    font-size: 0.8vw;
+    font-weight: 600;
+    margin-top: vw;
+}
+.lasttopic{
+    border: none;
+    box-shadow: none;
+}
+.lasttopic:hover{
+    background-color: white;
+}

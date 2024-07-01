@@ -1,0 +1,99 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+html ,body{
+    height: 100%;
+    width: 100%;
+    font-family: mons;
+}
+@font-face {
+    font-family: mons;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+.sign-in-cover{
+    height: 47vw;
+    width: 100%;
+    background-image: url(assets/school\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+   
+}
+.sign-in-options{
+    width: 40vw;
+    height: 3vw;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sign-in-options p{
+    border: solid grey 1px;
+    padding: 0.7vw 2vw;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.sign-in-options p:hover{
+    background: rgb(199, 226, 237);
+    border: solid #1c1ca4 2px;
+}
+.sign-in-cover input{
+    width: 40vw;
+    height: 3vw;
+    margin-top: 2vw;
+    font-size: 1.4vw;
+    border: none;
+    outline: none;
+    border-bottom:solid grey 1.5px ;
+    background: transparent;
+}
+.sign-in-cover a{
+    margin-right: 32vw;
+    font-size: 0.9vw;
+    margin-top:1vw;
+    text-decoration: none;
+    color: rgb(0, 183, 255);
+    font-weight: 500;
+}
+.sign-in-buttons{
+    /* background-color: red; */
+    width: 40vw;
+    height: 10vw;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 30vw;
+    top: 30vw;
+    align-items: center;
+}
+.sign-in-buttons button{
+    width: 20vw;
+    height: 3vw;
+    margin-top: 1vw;
+    border-radius: 5px;
+    border: solid grey 1px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.sign-in-buttons a{
+    color: #1c1ca4;
+    text-decoration: none;
+    font-size: 0.8vw;
+    margin-top: 1vw;
+    border: none;
+    margin-left: 34vw;
+    width: 9vw;
+}
+.sign{
+    background-color: #1c1ca4;
+    color: white;
+}
+.dremslogo{
+ padding-top: 13vw;
+}

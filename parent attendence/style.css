@@ -1,0 +1,152 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: mons;
+}
+@font-face {
+    font-family: mons;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+.attendence{
+    height: 100%;
+    width: 100%;
+}
+.upper-heading{
+    height: 4vw;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #4040ff;
+    margin-top: 2vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.upper-heading h2{
+    font-size: 2vw;
+    color: #fff;
+    font-weight: 600;
+}
+.attendence-lower{
+    height: 90%;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: row;
+}
+.attendence-lower-left{
+    height: 100%;
+    width: 50%;
+}
+.attendence-lower-right{
+    height: 100%;
+    width: 50%;
+}
+
+.cal{
+    /* background-color: red; */
+    height: 20vw;
+    width: 25vw;
+    margin-left: 11vw;
+    border-radius: 10px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    margin-top: 5vw;
+}
+.cal h1{
+    font-size: 1vw;
+    margin-left: 2vw;
+    padding-top: 1vw;
+}
+.cal-main{
+    /* background-color: red; */
+    height: 80%;
+    width: 83%;
+    margin-left:2vw;
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+.days{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.days p{
+    font-size: 0.8vw;
+    color: rgb(207, 206, 206);
+    font-weight: 500;
+    
+}
+.dates{
+    display: flex;
+    justify-content: space-between;
+}
+.dates p{
+    font-size: 0.8vw;
+    margin-top: 1vw;
+    /* background-color: red; */
+    width: 2vw;
+    height: 2vw;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    /* background-color: greenyellow; */
+    
+}
+
+
+.notification{
+    margin-top: 2vw;
+    height: 8vw;
+    width: 25vw;
+    margin-left: 11vw;
+    border-radius: 10px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+.green{
+    background-color:red;
+    width: 1.2vw;
+    height: 100%;
+}
+.notification h1{
+    width: 1.2vw;
+    height: 1.2vw;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 1vw;
+    margin-top: 0.5vw;
+}
+.noti-content{
+    /* margin-top: 2vw; */
+    height: 100%;
+    width: 70%;
+    margin-left: 1vw;
+}
+.noti-content p{
+    font-size: 0.7vw;
+    color: rgb(130, 130, 130);
+    font-weight: 500;
+    margin-top: 0.5vw;
+}
+.noti-content h3{
+    font-size: 0.9vw;
+    font-weight: 600;
+    margin-top: 0.7vw;
+}
+
+.red{
+    background-color: red;
+    color: white;
+}
